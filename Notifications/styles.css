@@ -1,0 +1,100 @@
+*,**{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    margin-left: 25rem;
+    width:40rem;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    scale: 0.9;
+}
+
+button{
+    background-color: rgb(6, 6, 119);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
+a{
+text-decoration: none;
+color: #060677;
+font-weight: bold;
+}
+
+h4{
+cursor: pointer;
+color: grey;
+margin-top: 25px;
+margin-left: 21rem;
+}
+
+img{
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align:right;
+    float: left;
+}
+
+span{
+    color: black;
+    font-weight: bolder;
+}
+
+p{
+    margin-left: 20px;
+    color: grey;
+}
+.box:hover{
+    transition: 0.3em; 
+    cursor: pointer;
+    scale: 1.1;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.msg{
+    border: 0px solid; 
+    border-radius: 10px;
+    background-color:rgb(225, 245, 255);
+    margin:10px;
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.dot{
+    height: 6px;
+    width: 6px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.box{
+    border: 0.5px solid  lightgrey;
+    border-radius: 5px;
+    width: 28rem;
+    height: 73px;
+    margin-left: 90px;
+}
+
+#extra{
+    border-radius: 10px;
+    float: right;
+    margin-right: 100px;
+}
+
+.msg1 img{
+   margin-right: 20px;
+}
